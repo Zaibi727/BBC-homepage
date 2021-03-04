@@ -1,0 +1,137 @@
+.link{
+    text-decoration: none;
+}
+nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 4px;
+    margin-right: 30px;
+}
+.bbc{
+    text-decoration:none;
+    color: black;
+    margin-right: 5px;
+  
+}
+.bbc span{
+     background-color: white;
+     margin: 0px 3px;
+     padding: 0px 5px;
+     font-size: 25px;
+     font-weight: 600;
+     font-family: sans-serif; 
+}
+
+.nav-user-icon {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+.nav-ul{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav-ul li a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size:18px;
+    font-weight: 650;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+.sign-in{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+/*--nav-bar-compelet--*/
+
+/*--below-code for responsive max-480px--*/
+
+@media only screen and (max-width: 480px){
+    #hidden-for-responsive{
+        display: none;
+    }
+    nav{
+        padding: 0px 5px;
+        max-width: 100%;
+    }
+    .nav-ul li a{
+        text-decoration: none;
+        margin: 0px 19px 0px 0px;
+        font-size:18px;
+        font-weight: 650;
+        color: white;
+    }
+    .nav-logo a{
+        margin: 0px 5px;
+        margin-right: 0px;
+    }
+    .nav-user-icon{
+        display: flex;
+    }
+    .nav-user-icon i{
+         display: flex;
+         align-items: center;
+         margin-left: 5px;
+    }
+    .more{
+        display: flex;
+    }
+}
+
+/*--responsive for tablet--*/
+
+@media only screen and (max-width: 780px){
+    #hidden-for-responsive{
+        display: none;
+    }
+    nav{
+        padding: 0px 5px;
+        max-width: 100%;
+    }
+    .nav-ul li a{
+        text-decoration: none;
+        margin: 0px 19px 0px 0px;
+        font-size:18px;
+        font-weight: 650;
+        color: white;
+    }
+    .nav-logo a{
+        margin: 0px 5px;
+        margin-right: 0px;
+    }
+    .nav-user-icon{
+        display: flex;
+    }
+    .nav-user-icon i{
+         display: flex;
+         align-items: center;
+         margin-left: 5px;
+    }
+    .more{
+        display: flex;
+    }
+}
+

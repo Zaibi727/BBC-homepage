@@ -1,0 +1,144 @@
+
+.News-wrapper{
+    width:100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    column-gap: 5%;
+}
+.news-div-one{
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+}
+.news-div-one h2{
+    width: 90%;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: rgb(73, 70, 70);
+}
+.news-div-one time{
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.news-div-one a{
+    color: white;
+    background-color: red;
+    padding: 14px 18px;
+}
+.news-div-one a:hover{
+    background-color: rgb(15, 27, 7);
+}
+
+/*--div-one--*/
+
+.news-div-two{
+    margin-top: 40px;
+    width: 100%;
+}
+.news-div-two figure{
+    width: 100%;
+    margin: 0px auto;
+    
+}
+.news-div-two figure img{
+  width: 100%;
+  padding-bottom: 55px;
+  background-color: rgb(75, 71, 71);
+  z-index: 90%;
+ 
+}
+.figcaption{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px auto;
+    margin-top: -70px;
+    color: white;
+    z-index: 90%;
+    
+}
+.main-caption{
+    margin-left: 20px;
+}
+.tag{
+    margin-top: -20px;
+    padding: 10px;
+    background-color: rgb(75, 71, 71);
+}
+
+
+/*--image setting with top heading and figurecaptionsof whole container--*/
+
+.article-paragraph{
+    width: 80%;
+    text-align: left;
+    line-height: 30px;
+    margin: 30px 0px;
+    color: darkslategrey;
+}
+#article-heading-of-top-pic{
+        font-weight: 700;
+        font-size: 18px;
+        color: rgb(56, 61, 61);
+}
+.article-mid-heading{
+    font-size: 46px;
+    font-weight: 500;font-family: serif;
+    color: rgb(57, 66, 66);
+}
+
+/*--article-page-paragraphs--*/
+
+
+.article-page-side-bar{
+    max-width: 100%;
+    margin-top: 70px;
+}
+.article-page-side-bar-div-one{
+   
+   border-top: 2px solid red;
+   border-bottom: 2px solid red;
+   padding-bottom: 30px;
+}
+.p-convert-heading{
+    font-size: 18px !important;
+    font-family: serif;
+    font-weight: 700;
+}
+.article-page-side-bar-div-one p{
+    font-size: 15px;
+    color: darkslategrey;
+}
+.article-page-side-bar-div-one time{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.fa{
+    margin-right: 5px;
+}
+
+/*--side-bar-div-one--*/
+
+.side-bar-div-two img{
+      max-width: 100%;
+}
+.side-bar-div-two p{
+    margin-top: -5px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: rgb(58, 50, 50);
+}
+.side-bar-div-two a{
+    color: red;
+}
+
+/*--below-responive-for mobile--*/
+
